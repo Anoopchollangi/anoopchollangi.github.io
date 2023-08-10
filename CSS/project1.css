@@ -27,7 +27,7 @@ span{
 .home{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(ev.jpg);
+    background-image: url(/Photos/ev.jpg);
     background-color: var(--text-color);
     background-size: cover;
     background-position: center;
