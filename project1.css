@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: whitesmoke;
+    --second-bg-color: #202020;
+    --text-color: black;
+    --scond-color: #ffffff;
+    --main-color: red;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 16px;
+}
+section{
+    padding: 160px 15% 120px;
+}
+span{
+    color: whitesmoke;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(ev.jpg);
+    background-color: var(--text-color);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.home-image img{
+    height: auto;
+    width: 100%;
+}
+.home-text{
+    color: var(--main-color);
+    margin-bottom: 350px;
+    width: 100%;
+    margin-left: -27%;
+    margin-top: -55px;
+}
+.home-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    transition: all .45s ease;
+}
+.home-text h1:hover{
+    scale: 1.1;
+}
+.home-text h3{
+    margin-top: -10px;
+    letter-spacing: 9px;
+    margin-left: 3px;
+    color: gray;
+    transition: all .45s ease;
+}
+.home-text h3:hover{
+    color: var(--main-color);
+    transform: translateX(40px);
+}
+.home-text p{
+    color: var(--scond-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.sae{
+    color: rgb(0, 166, 216);
+}
+.end {
+    margin-bottom: 0;
+    padding: 50px;
+    background: var(--text-color);
+}
+.end .last-text p{
+    color: var(--scond-color);
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.gallery img{
+    width: 65%;
+    margin-left: 60%;
+    margin-top: -50px;
+}
+.gallery img:hover{
+    scale: 1.1;
+    transition: all .45s ease;
+}
+.gallery1 img{
+    width: 60%;
+    margin-left: 80%;
+    margin-top: -70%;
+}
+.gallery1 img:hover{
+    scale: 1.1;
+    transition: all .45s ease;
+}
+.gallery2 img{
+    width: 60%;
+    margin-left: -20%;
+    margin-top: -110%;
+}
+.gallery2 img:hover{
+    scale: 1.1;
+    transition: all .45s ease;
+}
+.gallery3 img{
+    width: 60%;
+    margin-left: 80%;
+    margin-top: -150%;
+}
+.gallery3 img:hover{
+    scale: 1.1;
+    transition: all .45s ease;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(hsl(0, 100%, 50%), #ff22e2, rgb(78, 133, 216));
+    border-radius: 10px;
+}
